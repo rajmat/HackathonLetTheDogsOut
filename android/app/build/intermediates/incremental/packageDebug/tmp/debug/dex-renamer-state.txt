@@ -1,4 +1,0 @@
-#Wed May 22 22:31:52 CEST 2019
-base.0=/Users/maxsmith/Desktop/newProject/android/app/build/intermediates/transforms/dexMerger/debug/0
-renamed.0=classes.dex
-path.0=classes.dex
