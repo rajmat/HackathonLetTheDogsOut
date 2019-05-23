@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/maxsmith/Desktop/newProject/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml",
+            "outputFile": "/Users/maxsmith/Desktop/Hackathon/HackathonLetTheDogsOut/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml",
             "map": [
                 {
                     "source": "/Users/maxsmith/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/46e6f81e52e8edc7d5cd4b19c607d51a/res/values-km/values-km.xml",

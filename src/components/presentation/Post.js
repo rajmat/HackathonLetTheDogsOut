@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, Image, Dimensions, TouchableOpacity } from 'react-native';
-import config from '../../config'
+import config from '../../config';
+import getAllRecipes from '../../services/getAllRecipes'
+// import console = require('console');
 
 
 class Post extends Component {
@@ -8,12 +10,13 @@ class Post extends Component {
     super();
     this.state = {
       liked: false,
-      screenWidth: Dimensions.get('window').width
+      screenWidth: Dimensions.get('window').width,
     }
   }
 
   likeToggled() {
     this.setState({ liked: !this.state.liked })
+    getAllRecipes()
   }
 
   render() {
@@ -35,7 +38,7 @@ class Post extends Component {
           <TouchableOpacity
             activeOpacity={0.8}
             onPress={() => {
-              this.likeToggled()
+              this.likeToggled();
             }}>
             <Image
               style={{ width: this.state.screenWidth, height: imageHeight }}

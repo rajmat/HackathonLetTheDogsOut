@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet, Image, Dimensions, TouchableOpacity } from 'react-native';
 // import config from './config'
 import { PostFeed } from './components/container'
+import Test from './components/presentation/Test'
+import Test2 from './components/presentation/Test2'
+import Test3 from './components/presentation/Test3'
 
 
 class InstaClone extends Component {
@@ -11,7 +14,10 @@ class InstaClone extends Component {
         <View style={styles.tempNav}>
           <Text> Instagram </Text>
         </View>
-        <PostFeed />
+        {/* <PostFeed /> */}
+        {/* <Test /> */}
+        {/* <Test2 /> */}
+        <Test3 />
       </ View>
     )
   }
